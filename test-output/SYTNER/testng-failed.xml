@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [SYTNER]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="RUN ON FIREFOX(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="sytner.co.uk.homepage.HomePage_001_MenuItems">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="MenuItems_001_AboutUs"/>
+        </methods>
+      </class> <!-- sytner.co.uk.homepage.HomePage_001_MenuItems -->
+    </classes>
+  </test> <!-- RUN ON FIREFOX(failed) -->
+</suite> <!-- Failed suite [SYTNER] -->

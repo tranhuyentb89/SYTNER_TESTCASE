@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SYTNER" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="RUN ON FIREFOX">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="sytner.co.uk.homepage.HomePage_001_MenuItems" />
+		</classes>
+	</test>
+</suite>
+
+

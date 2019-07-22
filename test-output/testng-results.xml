@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[2019-07-22 23:46:36,605 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_01: Click To About Us
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-22 23:46:38,585 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_02: Verify About Us page is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-22 23:46:38,611 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-22 23:46:38,616 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 01 : Click to News
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-22 23:46:44,077 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 02 : Verify News page is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-22 23:46:44,083 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+    </line>
+  </reporter-output>
+  <suite name="SYTNER" duration-ms="26452" started-at="2019-07-22T16:46:24Z" finished-at="2019-07-22T16:46:51Z">
+    <groups>
+    </groups>
+    <test name="RUN ON FIREFOX" duration-ms="26452" started-at="2019-07-22T16:46:24Z" finished-at="2019-07-22T16:46:51Z">
+      <class name="sytner.co.uk.homepage.HomePage_001_MenuItems">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="beforeTest" is-config="true" duration-ms="11787" started-at="2019-07-22T23:46:24Z" finished-at="2019-07-22T23:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="MenuItems_001_AboutUs()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_001_AboutUs" duration-ms="2016" started-at="2019-07-22T23:46:36Z" finished-at="2019-07-22T23:46:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2019-07-22 23:46:36,605 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_01: Click To About Us
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-22 23:46:38,585 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_02: Verify About Us page is displayed
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-22 23:46:38,611 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MenuItems_001_AboutUs -->
+        <test-method status="PASS" signature="MenuItems_002_News()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_002_News" duration-ms="5467" started-at="2019-07-22T23:46:38Z" finished-at="2019-07-22T23:46:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2019-07-22 23:46:38,616 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 01 : Click to News
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-22 23:46:44,077 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 02 : Verify News page is displayed
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-22 23:46:44,083 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MenuItems_002_News -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="afterClass" is-config="true" duration-ms="7171" started-at="2019-07-22T23:46:44Z" finished-at="2019-07-22T23:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sytner.co.uk.homepage.HomePage_001_MenuItems -->
+    </test> <!-- RUN ON FIREFOX -->
+  </suite> <!-- SYTNER -->
+</testng-results>
