@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="RUN ON FIREFOX"
-           tests="2"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="7.483">
+           time="9.507">
   <properties />
   
   
-            <testcase name="MenuItems_001_AboutUs" time="2.016" classname="sytner.co.uk.homepage.HomePage_001_MenuItems" />
-                <testcase name="MenuItems_002_News" time="5.467" classname="sytner.co.uk.homepage.HomePage_001_MenuItems" />
+            <testcase name="MenuItems_009_CarMaintenance" time="3.189" classname="sytner.co.uk.homepage.HomePage_001_MenuItems" />
+                <testcase name="MenuItems_010_Promotions" time="3.077" classname="sytner.co.uk.homepage.HomePage_001_MenuItems" />
+                <testcase name="MenuItems_008_NewCars" time="3.241" classname="sytner.co.uk.homepage.HomePage_001_MenuItems" />
       
 </testsuite>

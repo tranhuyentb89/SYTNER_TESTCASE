@@ -447,6 +447,22 @@ public class AbstractPage {
 
 	}
 
+	public void highlightElement(WebDriver driver, String locator, String...values) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		locator = String.format(locator, (Object[]) values);
+		WebElement element = driver.findElement(By.xpath(locator));
+		String originalStyle = element.getAttribute(locator);
+		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", element, "style", "border:3px solid red; border-style:dashed;");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", element, "style", originalStyle);
+
+	}
+
 	public Object executeForBrowser(WebDriver driver, String javaSript) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		return js.executeScript(javaSript);
@@ -636,6 +652,18 @@ public class AbstractPage {
 	}
 	
 	public void clickToDynamicMenuItem(WebDriver driver, String fieldName) {
+		highlightElement(driver, AbstractPageUI.DYNAMIC_MENU_ITEM, fieldName);
 		clickToElement(driver, AbstractPageUI.DYNAMIC_MENU_ITEM, fieldName);
 	}
+	
+	public void clickToDynamicPrimaryMenuItem(WebDriver driver, String fieldName) {
+		highlightElement(driver, AbstractPageUI.DYNAMIC_PRIMARY_MENU, fieldName);
+		clickToElement(driver, AbstractPageUI.DYNAMIC_PRIMARY_MENU, fieldName);
+	}
+	
+	public void closeChildWindow(WebDriver driver) {
+		String parentWindow = driver.getWindowHandle();
+		closeAllWithoutParentWindows(driver, parentWindow);
+	}
+
 }

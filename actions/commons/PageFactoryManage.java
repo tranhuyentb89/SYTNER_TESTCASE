@@ -3,10 +3,15 @@ package commons;
 import org.openqa.selenium.WebDriver;
 
 import pageObjects.AboutUsPageObject;
+import pageObjects.CarMaintenancePageObject;
 import pageObjects.CareersPageObject;
 import pageObjects.CustomerServicePageObject;
+import pageObjects.FinancePageObject;
 import pageObjects.HomePageObject;
+import pageObjects.NewCarsPageObject;
 import pageObjects.NewPageObject;
+import pageObjects.PromotionsPageObject;
+import pageObjects.UsedCarSearchPageObject;
 
 public class PageFactoryManage {
 
@@ -27,8 +32,28 @@ public class PageFactoryManage {
 	}
 
 	public static CareersPageObject getCareersPage(WebDriver driver) {
-		// TODO Auto-generated method stub
-		return null;
+		return new CareersPageObject(driver);
 	}
+
+	public static FinancePageObject getFinancePage(WebDriver driver) {
+		return new FinancePageObject(driver);
+	}
+
+	public static UsedCarSearchPageObject getUsedCarSearchPage(WebDriver driver) {
+		return new UsedCarSearchPageObject(driver);
+	}
+
+	public static NewCarsPageObject getNewCarsPage(WebDriver driver) {
+		return new NewCarsPageObject(driver);
+	}
+
+	public static CarMaintenancePageObject getCarMaintenancePage(WebDriver driver) {
+		return new CarMaintenancePageObject(driver);
+	}
+
+	public static PromotionsPageObject getPromotionsPage(WebDriver driver) {
+		return new PromotionsPageObject(driver);
+	}
+
 
 }

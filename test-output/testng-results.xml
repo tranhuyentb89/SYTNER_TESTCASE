@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[2019-07-22 23:46:36,605 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_01: Click To About Us
+      <![CDATA[2019-07-23 23:44:56,206 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 01 : Click to New Cars Menu item
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-22 23:46:38,585 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_02: Verify About Us page is displayed
+      <![CDATA[2019-07-23 23:44:59,430 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 02 : Verify New Cars page is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-22 23:46:38,611 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+      <![CDATA[2019-07-23 23:44:59,437 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-22 23:46:38,616 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 01 : Click to News
+      <![CDATA[2019-07-23 23:44:59,441 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 01 : Click to Car Maintenance Menu item
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-22 23:46:44,077 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 02 : Verify News page is displayed
+      <![CDATA[2019-07-23 23:45:02,624 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 02 : Verify Car Maintenance page is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-22 23:46:44,083 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+      <![CDATA[2019-07-23 23:45:02,629 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-23 23:45:02,631 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 01 : Click to Promotions Menu item
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-23 23:45:05,701 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 02 : Verify Promotions page is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-23 23:45:05,708 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
     </line>
   </reporter-output>
-  <suite name="SYTNER" duration-ms="26452" started-at="2019-07-22T16:46:24Z" finished-at="2019-07-22T16:46:51Z">
+  <suite name="SYTNER" duration-ms="25256" started-at="2019-07-23T16:44:44Z" finished-at="2019-07-23T16:45:09Z">
     <groups>
     </groups>
-    <test name="RUN ON FIREFOX" duration-ms="26452" started-at="2019-07-22T16:46:24Z" finished-at="2019-07-22T16:46:51Z">
+    <test name="RUN ON FIREFOX" duration-ms="25256" started-at="2019-07-23T16:44:44Z" finished-at="2019-07-23T16:45:09Z">
       <class name="sytner.co.uk.homepage.HomePage_001_MenuItems">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="beforeTest" is-config="true" duration-ms="11787" started-at="2019-07-22T23:46:24Z" finished-at="2019-07-22T23:46:36Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="beforeTest" is-config="true" duration-ms="11883" started-at="2019-07-23T23:44:44Z" finished-at="2019-07-23T23:44:56Z">
           <params>
             <param index="0">
               <value>
@@ -42,39 +54,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="MenuItems_001_AboutUs()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_001_AboutUs" duration-ms="2016" started-at="2019-07-22T23:46:36Z" finished-at="2019-07-22T23:46:38Z">
+        <test-method status="PASS" signature="MenuItems_008_NewCars()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_008_NewCars" duration-ms="3241" started-at="2019-07-23T23:44:56Z" finished-at="2019-07-23T23:44:59Z">
           <reporter-output>
             <line>
-              <![CDATA[2019-07-22 23:46:36,605 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_01: Click To About Us
+              <![CDATA[2019-07-23 23:44:56,206 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 01 : Click to New Cars Menu item
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-22 23:46:38,585 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_001_AboutUs_Step_02: Verify About Us page is displayed
+              <![CDATA[2019-07-23 23:44:59,430 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 02 : Verify New Cars page is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-22 23:46:38,611 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+              <![CDATA[2019-07-23 23:44:59,437 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- MenuItems_001_AboutUs -->
-        <test-method status="PASS" signature="MenuItems_002_News()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_002_News" duration-ms="5467" started-at="2019-07-22T23:46:38Z" finished-at="2019-07-22T23:46:44Z">
+        </test-method> <!-- MenuItems_008_NewCars -->
+        <test-method status="PASS" signature="MenuItems_009_CarMaintenance()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_009_CarMaintenance" duration-ms="3189" started-at="2019-07-23T23:44:59Z" finished-at="2019-07-23T23:45:02Z">
           <reporter-output>
             <line>
-              <![CDATA[2019-07-22 23:46:38,616 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 01 : Click to News
+              <![CDATA[2019-07-23 23:44:59,441 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 01 : Click to Car Maintenance Menu item
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-22 23:46:44,077 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_002_News- Step 02 : Verify News page is displayed
+              <![CDATA[2019-07-23 23:45:02,624 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 02 : Verify Car Maintenance page is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-22 23:46:44,083 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+              <![CDATA[2019-07-23 23:45:02,629 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- MenuItems_002_News -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="afterClass" is-config="true" duration-ms="7171" started-at="2019-07-22T23:46:44Z" finished-at="2019-07-22T23:46:51Z">
+        </test-method> <!-- MenuItems_009_CarMaintenance -->
+        <test-method status="PASS" signature="MenuItems_010_Promotions()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_010_Promotions" duration-ms="3077" started-at="2019-07-23T23:45:02Z" finished-at="2019-07-23T23:45:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2019-07-23 23:45:02,631 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 01 : Click to Promotions Menu item
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-23 23:45:05,701 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 02 : Verify Promotions page is displayed
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-23 23:45:05,708 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MenuItems_010_Promotions -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="afterClass" is-config="true" duration-ms="3848" started-at="2019-07-23T23:45:05Z" finished-at="2019-07-23T23:45:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
