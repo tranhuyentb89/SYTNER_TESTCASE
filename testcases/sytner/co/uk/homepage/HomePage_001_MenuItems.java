@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 import commons.AbstractTest;
 import commons.PageFactoryManage;
 import pageObjects.AboutUsPageObject;
+import pageObjects.CareersPageObject;
+import pageObjects.CustomerServicePageObject;
 import pageObjects.HomePageObject;
 import pageObjects.NewPageObject;
 
@@ -18,6 +20,8 @@ public class HomePage_001_MenuItems extends AbstractTest {
 	HomePageObject homePage;
 	AboutUsPageObject aboutUsPage;
 	NewPageObject newPage;
+	CustomerServicePageObject customerServicePage;
+	CareersPageObject careersPage;
 
 	@Parameters("browser")
 	@BeforeTest
@@ -49,12 +53,24 @@ public class HomePage_001_MenuItems extends AbstractTest {
 	@Test
 	public void MenuItems_003_CustomerService() {
 		log.info("MenuItems_003_CustomerService- Step 01 : Click to Customer Service");
-		homePage.clickToDynamicMenuItem(driver, "News");
-		newPage = PageFactoryManage.getNewsPage(driver);
+		homePage.clickToDynamicMenuItem(driver, "Customer Service");
+		customerServicePage = PageFactoryManage.getCustomerServicePage(driver);
 		
-		log.info("MenuItems_002_News- Step 02 : Verify News page is displayed");
-		verifyEquals(newPage.getPageTitle(driver), "Latest News | About Us | Sytner Group");
+		log.info("MenuItems_003_CustomerService- Step 02 : Verify Customer Service page is displayed");
+		verifyEquals(customerServicePage.getPageTitle(driver), "Customer Service | Sytner Group");
 	}
+	
+	@Test
+	public void MenuItems_004_Careers() {
+		log.info("MenuItems_004_Careers- Step 01 : Click to Careers");
+		homePage.clickToDynamicMenuItem(driver, "Careers");
+		careersPage = PageFactoryManage.getCareersPage(driver);
+		
+		log.info("MenuItems_004_Careers- Step 02 : Verify Careers page is displayed");
+		verifyEquals(customerServicePage.getPageTitle(driver), "Customer Service | Sytner Group");
+
+	}
+	
 
 	@AfterClass
 	public void afterClass() {
