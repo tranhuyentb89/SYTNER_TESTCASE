@@ -44,7 +44,16 @@ public class HomePage_001_MenuItems extends AbstractTest {
 		
 		log.info("MenuItems_002_News- Step 02 : Verify News page is displayed");
 		verifyEquals(newPage.getPageTitle(driver), "Latest News | About Us | Sytner Group");
-
+	}
+	
+	@Test
+	public void MenuItems_003_CustomerService() {
+		log.info("MenuItems_003_CustomerService- Step 01 : Click to Customer Service");
+		homePage.clickToDynamicMenuItem(driver, "News");
+		newPage = PageFactoryManage.getNewsPage(driver);
+		
+		log.info("MenuItems_002_News- Step 02 : Verify News page is displayed");
+		verifyEquals(newPage.getPageTitle(driver), "Latest News | About Us | Sytner Group");
 	}
 
 	@AfterClass
