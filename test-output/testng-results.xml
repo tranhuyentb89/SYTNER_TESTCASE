@@ -1,49 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[2019-07-23 23:44:56,206 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 01 : Click to New Cars Menu item
+      <![CDATA[2019-07-24 15:08:12,641 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 01 : Click to New Cars Menu item
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:44:59,430 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 02 : Verify New Cars page is displayed
+      <![CDATA[2019-07-24 15:08:17,042 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 02 : Verify New Cars page is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:44:59,437 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+      <![CDATA[2019-07-24 15:08:17,067 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:44:59,441 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 01 : Click to Car Maintenance Menu item
+      <![CDATA[2019-07-24 15:08:17,156 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 01 : Click to Car Maintenance Menu item
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:45:02,624 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 02 : Verify Car Maintenance page is displayed
+      <![CDATA[2019-07-24 15:08:22,073 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 02 : Verify Car Maintenance page is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:45:02,629 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+      <![CDATA[2019-07-24 15:08:22,079 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:45:02,631 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 01 : Click to Promotions Menu item
+      <![CDATA[2019-07-24 15:08:22,080 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 01 : Click to Promotions Menu item
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:45:05,701 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 02 : Verify Promotions page is displayed
+      <![CDATA[2019-07-24 15:08:25,385 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 02 : Verify Promotions page is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[2019-07-23 23:45:05,708 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+      <![CDATA[2019-07-24 15:08:25,432 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:25,434 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_011_BusinessUsers- Step 01 : Click to Business Users Menu item
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:29,522 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_011_BusinessUsers- Step 02 : Verify Business Users page is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:29,531 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:29,532 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_012_SellYourCar- Step 01 : Click to Sell your car Users Menu item
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:32,581 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_012_SellYourCar- Step 02 : Verify Sell your car page is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:32,626 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:32,627 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_013_DealerLocator- Step 01 : Click to Dealer Locator Menu item
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:36,239 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_013_DealerLocator- Step 02 : Verify Dealer Locator page is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:36,264 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:36,266 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_014_HomeIcon- Step 01 : Click to Dealer Locator
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:39,682 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_014_HomeIcon- Step 02 : Click to Home Icon
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:43,110 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_014_HomeIcon- Step 03 : Verify Home page is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[2019-07-24 15:08:43,160 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
     </line>
   </reporter-output>
-  <suite name="SYTNER" duration-ms="25256" started-at="2019-07-23T16:44:44Z" finished-at="2019-07-23T16:45:09Z">
+  <suite name="SYTNER" duration-ms="54430" started-at="2019-07-24T08:07:53Z" finished-at="2019-07-24T08:08:47Z">
     <groups>
     </groups>
-    <test name="RUN ON FIREFOX" duration-ms="25256" started-at="2019-07-23T16:44:44Z" finished-at="2019-07-23T16:45:09Z">
+    <test name="RUN ON FIREFOX" duration-ms="54430" started-at="2019-07-24T08:07:53Z" finished-at="2019-07-24T08:08:47Z">
       <class name="sytner.co.uk.homepage.HomePage_001_MenuItems">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="beforeTest" is-config="true" duration-ms="11883" started-at="2019-07-23T23:44:44Z" finished-at="2019-07-23T23:44:56Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="beforeTest" is-config="true" duration-ms="19391" started-at="2019-07-24T15:07:53Z" finished-at="2019-07-24T15:08:12Z">
           <params>
             <param index="0">
               <value>
@@ -54,55 +106,123 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="MenuItems_008_NewCars()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_008_NewCars" duration-ms="3241" started-at="2019-07-23T23:44:56Z" finished-at="2019-07-23T23:44:59Z">
+        <test-method status="PASS" signature="MenuItems_008_NewCars()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="MenuItems_008_NewCars" duration-ms="4431" started-at="2019-07-24T15:08:12Z" finished-at="2019-07-24T15:08:17Z">
           <reporter-output>
             <line>
-              <![CDATA[2019-07-23 23:44:56,206 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 01 : Click to New Cars Menu item
+              <![CDATA[2019-07-24 15:08:12,641 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 01 : Click to New Cars Menu item
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-23 23:44:59,430 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 02 : Verify New Cars page is displayed
+              <![CDATA[2019-07-24 15:08:17,042 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 02 : Verify New Cars page is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-23 23:44:59,437 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+              <![CDATA[2019-07-24 15:08:17,067 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- MenuItems_008_NewCars -->
-        <test-method status="PASS" signature="MenuItems_009_CarMaintenance()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_009_CarMaintenance" duration-ms="3189" started-at="2019-07-23T23:44:59Z" finished-at="2019-07-23T23:45:02Z">
+        <test-method status="PASS" signature="MenuItems_009_CarMaintenance()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="MenuItems_009_CarMaintenance" duration-ms="4924" started-at="2019-07-24T15:08:17Z" finished-at="2019-07-24T15:08:22Z">
           <reporter-output>
             <line>
-              <![CDATA[2019-07-23 23:44:59,441 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 01 : Click to Car Maintenance Menu item
+              <![CDATA[2019-07-24 15:08:17,156 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 01 : Click to Car Maintenance Menu item
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-23 23:45:02,624 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 02 : Verify Car Maintenance page is displayed
+              <![CDATA[2019-07-24 15:08:22,073 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 02 : Verify Car Maintenance page is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-23 23:45:02,629 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+              <![CDATA[2019-07-24 15:08:22,079 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- MenuItems_009_CarMaintenance -->
-        <test-method status="PASS" signature="MenuItems_010_Promotions()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="MenuItems_010_Promotions" duration-ms="3077" started-at="2019-07-23T23:45:02Z" finished-at="2019-07-23T23:45:05Z">
+        <test-method status="PASS" signature="MenuItems_010_Promotions()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="MenuItems_010_Promotions" duration-ms="3354" started-at="2019-07-24T15:08:22Z" finished-at="2019-07-24T15:08:25Z">
           <reporter-output>
             <line>
-              <![CDATA[2019-07-23 23:45:02,631 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 01 : Click to Promotions Menu item
+              <![CDATA[2019-07-24 15:08:22,080 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 01 : Click to Promotions Menu item
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-23 23:45:05,701 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 02 : Verify Promotions page is displayed
+              <![CDATA[2019-07-24 15:08:25,385 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 02 : Verify Promotions page is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[2019-07-23 23:45:05,708 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+              <![CDATA[2019-07-24 15:08:25,432 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- MenuItems_010_Promotions -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@18eed359]" name="afterClass" is-config="true" duration-ms="3848" started-at="2019-07-23T23:45:05Z" finished-at="2019-07-23T23:45:09Z">
+        <test-method status="PASS" signature="MenuItems_011_BusinessUsers()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="MenuItems_011_BusinessUsers" duration-ms="4098" started-at="2019-07-24T15:08:25Z" finished-at="2019-07-24T15:08:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2019-07-24 15:08:25,434 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_011_BusinessUsers- Step 01 : Click to Business Users Menu item
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:29,522 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_011_BusinessUsers- Step 02 : Verify Business Users page is displayed
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:29,531 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MenuItems_011_BusinessUsers -->
+        <test-method status="PASS" signature="MenuItems_012_SellYourCar()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="MenuItems_012_SellYourCar" duration-ms="3094" started-at="2019-07-24T15:08:29Z" finished-at="2019-07-24T15:08:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2019-07-24 15:08:29,532 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_012_SellYourCar- Step 01 : Click to Sell your car Users Menu item
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:32,581 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_012_SellYourCar- Step 02 : Verify Sell your car page is displayed
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:32,626 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MenuItems_012_SellYourCar -->
+        <test-method status="PASS" signature="MenuItems_013_DealerLocator()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="MenuItems_013_DealerLocator" duration-ms="3637" started-at="2019-07-24T15:08:32Z" finished-at="2019-07-24T15:08:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2019-07-24 15:08:32,627 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_013_DealerLocator- Step 01 : Click to Dealer Locator Menu item
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:36,239 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_013_DealerLocator- Step 02 : Verify Dealer Locator page is displayed
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:36,264 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MenuItems_013_DealerLocator -->
+        <test-method status="PASS" signature="MenuItems_014_HomeIcon()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="MenuItems_014_HomeIcon" duration-ms="6894" started-at="2019-07-24T15:08:36Z" finished-at="2019-07-24T15:08:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2019-07-24 15:08:36,266 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_014_HomeIcon- Step 01 : Click to Dealer Locator
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:39,682 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_014_HomeIcon- Step 02 : Click to Home Icon
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:43,110 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_014_HomeIcon- Step 03 : Verify Home page is displayed
+]]>
+            </line>
+            <line>
+              <![CDATA[2019-07-24 15:08:43,160 INFO  sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MenuItems_014_HomeIcon -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sytner.co.uk.homepage.HomePage_001_MenuItems@3b0143d3]" name="afterClass" is-config="true" duration-ms="4466" started-at="2019-07-24T15:08:43Z" finished-at="2019-07-24T15:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

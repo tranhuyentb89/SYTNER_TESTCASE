@@ -3,14 +3,17 @@ package commons;
 import org.openqa.selenium.WebDriver;
 
 import pageObjects.AboutUsPageObject;
+import pageObjects.BusinessUsersPageObject;
 import pageObjects.CarMaintenancePageObject;
 import pageObjects.CareersPageObject;
 import pageObjects.CustomerServicePageObject;
+import pageObjects.DealerLocatorPageObject;
 import pageObjects.FinancePageObject;
 import pageObjects.HomePageObject;
 import pageObjects.NewCarsPageObject;
 import pageObjects.NewPageObject;
 import pageObjects.PromotionsPageObject;
+import pageObjects.SellYourCarPageObject;
 import pageObjects.UsedCarSearchPageObject;
 
 public class PageFactoryManage {
@@ -53,6 +56,18 @@ public class PageFactoryManage {
 
 	public static PromotionsPageObject getPromotionsPage(WebDriver driver) {
 		return new PromotionsPageObject(driver);
+	}
+
+	public static BusinessUsersPageObject getBusinessUsersPage(WebDriver driver) {
+		return new BusinessUsersPageObject(driver);
+	}
+
+	public static SellYourCarPageObject getSellYourCarPage(WebDriver driver) {
+		return new SellYourCarPageObject(driver);
+	}
+
+	public static DealerLocatorPageObject getDealerLocatorPage(WebDriver driver) {
+		return new DealerLocatorPageObject(driver);
 	}
 
 

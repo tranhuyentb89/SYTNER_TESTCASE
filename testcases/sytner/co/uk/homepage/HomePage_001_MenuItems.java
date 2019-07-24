@@ -9,14 +9,17 @@ import org.testng.annotations.Test;
 import commons.AbstractTest;
 import commons.PageFactoryManage;
 import pageObjects.AboutUsPageObject;
+import pageObjects.BusinessUsersPageObject;
 import pageObjects.CarMaintenancePageObject;
 import pageObjects.CareersPageObject;
 import pageObjects.CustomerServicePageObject;
+import pageObjects.DealerLocatorPageObject;
 import pageObjects.FinancePageObject;
 import pageObjects.HomePageObject;
 import pageObjects.NewCarsPageObject;
 import pageObjects.NewPageObject;
 import pageObjects.PromotionsPageObject;
+import pageObjects.SellYourCarPageObject;
 import pageObjects.UsedCarSearchPageObject;
 
 public class HomePage_001_MenuItems extends AbstractTest {
@@ -32,6 +35,9 @@ public class HomePage_001_MenuItems extends AbstractTest {
 	NewCarsPageObject newCardPage;
 	CarMaintenancePageObject carMaintenancePage;
 	PromotionsPageObject promotionsPage;
+	BusinessUsersPageObject businessUsersPage;
+	SellYourCarPageObject sellYourCarPage;
+	DealerLocatorPageObject dealerLocatorPage;
 
 	@Parameters("browser")
 	@BeforeTest
@@ -138,6 +144,63 @@ public class HomePage_001_MenuItems extends AbstractTest {
 		log.info("MenuItems_010_Promotions- Step 02 : Verify Promotions page is displayed");
 		verifyEquals(promotionsPage.getPageTitle(driver), "Special Car Offers & Promotions | Sytner");
 	}
+
+	@Test
+	public void MenuItems_011_BusinessUsers() {
+		log.info("MenuItems_011_BusinessUsers- Step 01 : Click to Business Users Menu item");
+		homePage.clickToDynamicPrimaryMenuItem(driver, "Business Users");
+		businessUsersPage = PageFactoryManage.getBusinessUsersPage(driver);
+
+		log.info("MenuItems_011_BusinessUsers- Step 02 : Verify Business Users page is displayed");
+		verifyEquals(businessUsersPage.getPageTitle(driver), "Business & Fleet Cars | Sytner Group");
+	}
+
+	@Test
+	public void MenuItems_012_SellYourCar() {
+		log.info("MenuItems_012_SellYourCar- Step 01 : Click to Sell your car Users Menu item");
+		homePage.clickToDynamicPrimaryMenuItem(driver, "Sell your car");
+		sellYourCarPage = PageFactoryManage.getSellYourCarPage(driver);
+
+		log.info("MenuItems_012_SellYourCar- Step 02 : Verify Sell your car page is displayed");
+		verifyEquals(sellYourCarPage.getPageTitle(driver), "Sell Your Car | Sytner Group");
+	}
+
+	@Test
+	public void MenuItems_013_DealerLocator() {
+		log.info("MenuItems_013_DealerLocator- Step 01 : Click to Dealer Locator Menu item");
+		homePage.clickToDynamicPrimaryMenuItem(driver, "Dealer Locator");
+		dealerLocatorPage = PageFactoryManage.getDealerLocatorPage(driver);
+
+		log.info("MenuItems_013_DealerLocator- Step 02 : Verify Dealer Locator page is displayed");
+		verifyEquals(dealerLocatorPage.getPageTitle(driver), "Our Locations | Sytner Group");
+	}
+
+	@Test
+	public void MenuItems_014_HomeIcon() {
+		log.info("MenuItems_014_HomeIcon- Step 01 : Click to Dealer Locator");
+		homePage.clickToDynamicPrimaryMenuItem(driver, "Dealer Locator");
+		dealerLocatorPage = PageFactoryManage.getDealerLocatorPage(driver);
+		
+		log.info("MenuItems_014_HomeIcon- Step 02 : Click to Home Icon");
+		businessUsersPage.clickToDynamicPrimaryMenuItem(driver, "Home");
+		homePage = PageFactoryManage.getHomePage(driver);
+		
+		log.info("MenuItems_014_HomeIcon- Step 03 : Verify Home page is displayed");
+		verifyEquals(homePage.getPageTitle(driver), "Car Dealership | Sytner Group");
+	}
+	
+	@Test
+	public void MenuItems_015_SytnerGroupLogo() {
+		log.info("MenuItems_015_SytnerGroupLogo- Step 01 : Click to Dealer Locator Menu item");
+		homePage.clickToDynamicPrimaryMenuItem(driver, "Dealer Locator");
+		dealerLocatorPage = PageFactoryManage.getDealerLocatorPage(driver);
+		
+		dealerLocatorPage.clickToSytnerGroupLogo();
+		homePage = PageFactoryManage.getHomePage(driver);
+		log.info("MenuItems_015_SytnerGroupLogo- Step 02 : Verify Home page is displayed");
+		verifyEquals(homePage.getPageTitle(driver), "Car Dealership | Sytner Group");
+	}
+
 
 	@AfterClass
 	public void afterClass() {
