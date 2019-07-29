@@ -201,7 +201,7 @@ public class HomePage_001_MenuItems extends AbstractTest {
 		verifyEquals(homePage.getPageTitle(driver), "Car Dealership | Sytner Group");
 	}
 
-
+	
 	@AfterClass
 	public void afterClass() {
 		closeBrowserAndDriver(driver);
