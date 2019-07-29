@@ -11,9 +11,14 @@
     <classes>
       <class name="sytner.co.uk.homepage.HomePage_001_MenuItems">
         <methods>
+          <include name="MenuItems_015_SytnerGroupLogo"/>
           <include name="afterClass"/>
+          <include name="MenuItems_014_HomeIcon"/>
           <include name="beforeTest"/>
-          <include name="MenuItems_007_UsedCarSearch"/>
+          <include name="MenuItems_009_CarMaintenance"/>
+          <include name="ImageScroll_001_ImageScrollDisplay"/>
+          <include name="MenuItems_013_DealerLocator"/>
+          <include name="MenuItems_010_Promotions"/>
         </methods>
       </class> <!-- sytner.co.uk.homepage.HomePage_001_MenuItems -->
     </classes>
