@@ -3,6 +3,9 @@ package commons;
 import org.openqa.selenium.WebDriver;
 
 import pageObjects.AboutUsPageObject;
+import pageObjects.AlpinaPageObject;
+import pageObjects.AudiPageObject;
+import pageObjects.BentleyPageObject;
 import pageObjects.BusinessUsersPageObject;
 import pageObjects.CarMaintenancePageObject;
 import pageObjects.CareersPageObject;
@@ -68,6 +71,18 @@ public class PageFactoryManage {
 
 	public static DealerLocatorPageObject getDealerLocatorPage(WebDriver driver) {
 		return new DealerLocatorPageObject(driver);
+	}
+
+	public static AlpinaPageObject getAlpinaPage(WebDriver driver) {
+		return new AlpinaPageObject(driver);
+	}
+
+	public static AudiPageObject getAudiPage(WebDriver driver) {
+		return new AudiPageObject(driver);
+	}
+
+	public static BentleyPageObject getBentleyPage(WebDriver driver) {
+		return new BentleyPageObject(driver);
 	}
 
 

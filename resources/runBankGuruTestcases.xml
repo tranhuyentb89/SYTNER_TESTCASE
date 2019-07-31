@@ -7,7 +7,7 @@
 	<test name="RUN ON FIREFOX">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="sytner.co.uk.homepage.HomePage_001_MenuItems" />
+			<class name="sytner.co.uk.homepage.HomePage_003_JumPoints" />
 		</classes>
 	</test>
 </suite>

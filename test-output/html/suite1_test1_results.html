@@ -12,393 +12,37 @@
 <body>
 <h1>RUN ON FIREFOX</h1>
 <p>
-  Test duration: 155.926s
+  Test duration: 54.235s
 </p>
 
 
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">sytner.co.uk.homepage.HomePage_001_MenuItems</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  ImageScroll_001_ImageScrollDisplay
-      </td>
-  <td class="duration">
-    0.203s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        2019-07-29 17:33:06,572 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - ===FAILED===<br/>
-<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Value is not matching! expected [6] but found [5]</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              org.testng.Assert.fail(Assert.java:94)<br />
-              org.testng.Assert.failNotEquals(Assert.java:496)<br />
-              org.testng.Assert.assertEquals(Assert.java:125)<br />
-              commons.AbstractTest.checkEquals(AbstractTest.java:150)<br />
-              commons.AbstractTest.verifyEquals(AbstractTest.java:160)<br />
-              sytner.co.uk.homepage.HomePage_001_MenuItems.ImageScroll_001_ImageScrollDisplay(HomePage_001_MenuItems.java:206)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)<br />
-              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-              java.util.concurrent.FutureTask.run(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-              java.lang.Thread.run(Unknown Source)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  MenuItems_009_CarMaintenance
-      </td>
-  <td class="duration">
-    30.133s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        2019-07-29 17:33:09,929 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_009_CarMaintenance- Step 01 : Click to Car Maintenance Menu item<br/>
-<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;primary-menu&apos;]//span[text()=&apos;Car Maintenance&apos;]&quot;}<br/>
-&nbsp; (Session info: chrome=75.0.3770.142)<br/>
-&nbsp; (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 30.06 seconds<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;<br/>
-System info: host: &apos;DESKTOP-R5AUEIT&apos;, ip: &apos;10.5.21.39&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59383}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\MYPC\AppData\Local\Temp\scoped_dir4740_13771}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]<br/>
-Session ID: 8dc3f3d4a8bc31e9753416d8c436abda<br/>
-*** Element info: {Using=xpath, value=//div[@id=&apos;primary-menu&apos;]//span[text()=&apos;Car Maintenance&apos;]}</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)<br />
-              org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
-              commons.AbstractPage.highlightElement(AbstractPage.java:453)<br />
-              commons.AbstractPage.clickToDynamicPrimaryMenuItem(AbstractPage.java:660)<br />
-              sytner.co.uk.homepage.HomePage_001_MenuItems.MenuItems_009_CarMaintenance(HomePage_001_MenuItems.java:131)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)<br />
-              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-              java.util.concurrent.FutureTask.run(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-              java.lang.Thread.run(Unknown Source)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  MenuItems_010_Promotions
-      </td>
-  <td class="duration">
-    30.061s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        2019-07-29 17:33:40,121 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_010_Promotions- Step 01 : Click to Promotions Menu item<br/>
-<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;primary-menu&apos;]//span[text()=&apos;Promotions&apos;]&quot;}<br/>
-&nbsp; (Session info: chrome=75.0.3770.142)<br/>
-&nbsp; (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 30.06 seconds<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;<br/>
-System info: host: &apos;DESKTOP-R5AUEIT&apos;, ip: &apos;10.5.21.39&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59383}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\MYPC\AppData\Local\Temp\scoped_dir4740_13771}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]<br/>
-Session ID: 8dc3f3d4a8bc31e9753416d8c436abda<br/>
-*** Element info: {Using=xpath, value=//div[@id=&apos;primary-menu&apos;]//span[text()=&apos;Promotions&apos;]}</b></a><br />
-    <div class="stackTrace" id="exception-2">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)<br />
-              org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
-              commons.AbstractPage.highlightElement(AbstractPage.java:453)<br />
-              commons.AbstractPage.clickToDynamicPrimaryMenuItem(AbstractPage.java:660)<br />
-              sytner.co.uk.homepage.HomePage_001_MenuItems.MenuItems_010_Promotions(HomePage_001_MenuItems.java:141)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)<br />
-              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-              java.util.concurrent.FutureTask.run(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-              java.lang.Thread.run(Unknown Source)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  MenuItems_013_DealerLocator
-      </td>
-  <td class="duration">
-    30.033s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        2019-07-29 17:34:17,664 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_013_DealerLocator- Step 01 : Click to Dealer Locator Menu item<br/>
-<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;primary-menu&apos;]//span[text()=&apos;Dealer Locator&apos;]&quot;}<br/>
-&nbsp; (Session info: chrome=75.0.3770.142)<br/>
-&nbsp; (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 30.03 seconds<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;<br/>
-System info: host: &apos;DESKTOP-R5AUEIT&apos;, ip: &apos;10.5.21.39&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59383}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\MYPC\AppData\Local\Temp\scoped_dir4740_13771}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]<br/>
-Session ID: 8dc3f3d4a8bc31e9753416d8c436abda<br/>
-*** Element info: {Using=xpath, value=//div[@id=&apos;primary-menu&apos;]//span[text()=&apos;Dealer Locator&apos;]}</b></a><br />
-    <div class="stackTrace" id="exception-3">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)<br />
-              org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
-              commons.AbstractPage.highlightElement(AbstractPage.java:453)<br />
-              commons.AbstractPage.clickToDynamicPrimaryMenuItem(AbstractPage.java:660)<br />
-              sytner.co.uk.homepage.HomePage_001_MenuItems.MenuItems_013_DealerLocator(HomePage_001_MenuItems.java:171)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)<br />
-              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-              java.util.concurrent.FutureTask.run(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-              java.lang.Thread.run(Unknown Source)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  MenuItems_014_HomeIcon
-      </td>
-  <td class="duration">
-    26.204s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        2019-07-29 17:34:47,700 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_014_HomeIcon- Step 01 : Click to Dealer Locator<br/>
-<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
-    <div class="stackTrace" id="exception-4">
-              commons.AbstractPage.highlightElement(AbstractPage.java:454)<br />
-              commons.AbstractPage.clickToDynamicPrimaryMenuItem(AbstractPage.java:660)<br />
-              sytner.co.uk.homepage.HomePage_001_MenuItems.MenuItems_014_HomeIcon(HomePage_001_MenuItems.java:181)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)<br />
-              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-              java.util.concurrent.FutureTask.run(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-              java.lang.Thread.run(Unknown Source)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  MenuItems_015_SytnerGroupLogo
-      </td>
-  <td class="duration">
-    0.005s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        2019-07-29 17:35:13,905 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_015_SytnerGroupLogo- Step 01 : Click to Dealer Locator Menu item<br/>
-<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
-from unknown error: web view not found<br/>
-&nbsp; (Session info: chrome=75.0.3770.142)<br/>
-&nbsp; (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 4 milliseconds<br/>
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;<br/>
-System info: host: &apos;DESKTOP-R5AUEIT&apos;, ip: &apos;10.5.21.39&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59383}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\MYPC\AppData\Local\Temp\scoped_dir4740_13771}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]<br/>
-Session ID: 8dc3f3d4a8bc31e9753416d8c436abda<br/>
-*** Element info: {Using=xpath, value=//div[@id=&apos;primary-menu&apos;]//span[text()=&apos;Dealer Locator&apos;]}</b></a><br />
-    <div class="stackTrace" id="exception-5">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)<br />
-              org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
-              commons.AbstractPage.highlightElement(AbstractPage.java:453)<br />
-              commons.AbstractPage.clickToDynamicPrimaryMenuItem(AbstractPage.java:660)<br />
-              sytner.co.uk.homepage.HomePage_001_MenuItems.MenuItems_015_SytnerGroupLogo(HomePage_001_MenuItems.java:195)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)<br />
-              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-              java.util.concurrent.FutureTask.run(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-              java.lang.Thread.run(Unknown Source)<br />
-                </div>
-      </td>
-</tr>
-      </table>
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">sytner.co.uk.homepage.HomePage_001_MenuItems</td>
+        <td colspan="3" class="group">sytner.co.uk.homepage.HomePage_003_JumPoints</td>
       </tr>
             
 <tr>
   <td class="method">
-                  MenuItems_008_NewCars
+                  JumpPoints_001_Alpina
       </td>
   <td class="duration">
-    3.350s
+    3.514s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        2019-07-29 17:33:06,577 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 01 : Click to New Cars Menu item<br/>
+                        2019-08-01 00:02:33,222 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - JumpPoints_001_Alpina: STep 01 - Hover to Alpina<br/>
 <br />
-                                2019-07-29 17:33:09,890 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_008_NewCars- Step 02 : Verify New Cars page is displayed<br/>
+                                2019-08-01 00:02:34,351 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - JumpPoints_001_Alpina: STep 02 - Click to to Alpina icon<br/>
 <br />
-                                2019-07-29 17:33:09,927 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===<br/>
+                                2019-08-01 00:02:36,697 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - JumpPoints_001_Alpina: STep 03 - Verify Alpina page is displayed<br/>
+<br />
+                                2019-08-01 00:02:36,728 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - ===PASSED===<br/>
 <br />
                   </div>
     
@@ -407,20 +51,24 @@ Session ID: 8dc3f3d4a8bc31e9753416d8c436abda<br/>
 </tr>
 <tr>
   <td class="method">
-                  MenuItems_011_BusinessUsers
+                  JumpPoints_002_Audi
       </td>
   <td class="duration">
-    3.552s
+    6.625s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        2019-07-29 17:34:10,185 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_011_BusinessUsers- Step 01 : Click to Business Users Menu item<br/>
+                        2019-08-01 00:02:36,733 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - JumpPoints_002_Audi: Step 01 - Back to home page from alpina<br/>
 <br />
-                                2019-07-29 17:34:13,729 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_011_BusinessUsers- Step 02 : Verify Business Users page is displayed<br/>
+                                2019-08-01 00:02:37,353 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - JumpPoints_002_Audi: Step 02 - Hover to auti<br/>
 <br />
-                                2019-07-29 17:34:13,736 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===<br/>
+                                2019-08-01 00:02:38,594 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - JumpPoints_002_Audi: Step 03 - Click to auti<br/>
+<br />
+                                2019-08-01 00:02:43,344 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - JumpPoints_002_Audi: Step 04 - Verify audi page is displayed<br/>
+<br />
+                                2019-08-01 00:02:43,357 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - ===PASSED===<br/>
 <br />
                   </div>
     
@@ -429,23 +77,173 @@ Session ID: 8dc3f3d4a8bc31e9753416d8c436abda<br/>
 </tr>
 <tr>
   <td class="method">
-                  MenuItems_012_SellYourCar
+                  JumpPoints_003_Bentley
       </td>
   <td class="duration">
-    3.926s
+    6.295s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        2019-07-29 17:34:13,737 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_012_SellYourCar- Step 01 : Click to Sell your car Users Menu item<br/>
-<br />
-                                2019-07-29 17:34:17,645 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - MenuItems_012_SellYourCar- Step 02 : Verify Sell your car page is displayed<br/>
-<br />
-                                2019-07-29 17:34:17,663 INFO&nbsp; sytner.co.uk.homepage.HomePage_001_MenuItems - ===PASSED===<br/>
+                        2019-08-01 00:02:49,653 INFO&nbsp; sytner.co.uk.homepage.HomePage_003_JumPoints - ===PASSED===<br/>
 <br />
                   </div>
     
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_004_BMW
+      </td>
+  <td class="duration">
+    3.079s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_005_Ferrari
+      </td>
+  <td class="duration">
+    1.097s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_006_AstonMartin
+      </td>
+  <td class="duration">
+    1.105s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_007_Jaguar
+      </td>
+  <td class="duration">
+    1.089s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_008_LandRover
+      </td>
+  <td class="duration">
+    1.113s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_009_Lamborghini
+      </td>
+  <td class="duration">
+    1.123s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_010_Maserati
+      </td>
+  <td class="duration">
+    1.102s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_011_Mclaren
+      </td>
+  <td class="duration">
+    1.115s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_012_MercedesBenz
+      </td>
+  <td class="duration">
+    1.079s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_013_MINI
+      </td>
+  <td class="duration">
+    1.117s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  JumpPoints_014_Porsche
+      </td>
+  <td class="duration">
+    7.692s
+  </td>
+  <td class="result">
+        
+    
+        
 
       </td>
 </tr>

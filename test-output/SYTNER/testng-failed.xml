@@ -9,18 +9,23 @@
   <test name="RUN ON FIREFOX(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="sytner.co.uk.homepage.HomePage_001_MenuItems">
+      <class name="sytner.co.uk.homepage.HomePage_003_JumPoints">
         <methods>
-          <include name="MenuItems_015_SytnerGroupLogo"/>
-          <include name="afterClass"/>
-          <include name="MenuItems_014_HomeIcon"/>
+          <include name="JumpPoints_012_MercedesBenz"/>
+          <include name="JumpPoints_006_AstonMartin"/>
           <include name="beforeTest"/>
-          <include name="MenuItems_009_CarMaintenance"/>
-          <include name="ImageScroll_001_ImageScrollDisplay"/>
-          <include name="MenuItems_013_DealerLocator"/>
-          <include name="MenuItems_010_Promotions"/>
+          <include name="JumpPoints_011_Mclaren"/>
+          <include name="JumpPoints_009_Lamborghini"/>
+          <include name="afterClass"/>
+          <include name="JumpPoints_007_Jaguar"/>
+          <include name="JumpPoints_013_MINI"/>
+          <include name="JumpPoints_008_LandRover"/>
+          <include name="JumpPoints_010_Maserati"/>
+          <include name="JumpPoints_014_Porsche"/>
+          <include name="JumpPoints_004_BMW"/>
+          <include name="JumpPoints_005_Ferrari"/>
         </methods>
-      </class> <!-- sytner.co.uk.homepage.HomePage_001_MenuItems -->
+      </class> <!-- sytner.co.uk.homepage.HomePage_003_JumPoints -->
     </classes>
   </test> <!-- RUN ON FIREFOX(failed) -->
 </suite> <!-- Failed suite [SYTNER] -->

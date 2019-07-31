@@ -292,10 +292,9 @@ public class AbstractPage {
 	}
 
 	public void hoverToElement(WebDriver driver, String locator) {
-
 		WebElement element = driver.findElement(By.xpath(locator));
 		Actions action = new Actions(driver);
-		action.moveToElement(element);
+		action.moveToElement(element).perform();;
 	}
 
 	public void hoverToElement(WebDriver driver, String locator, String... values) {
@@ -664,6 +663,14 @@ public class AbstractPage {
 	public void closeChildWindow(WebDriver driver) {
 		String parentWindow = driver.getWindowHandle();
 		closeAllWithoutParentWindows(driver, parentWindow);
+	}
+	public void hoverToDynamicJumpPoints(WebDriver driver, String fieldName) {
+		highlightElement(driver, AbstractPageUI.DYNAMIC_JUMP_POINTS, fieldName);
+		hoverToElement(driver, AbstractPageUI.DYNAMIC_JUMP_POINTS, fieldName);
+	}
+	
+	public void clickToDynamicJumpPoints(WebDriver driver, String fieldName) {
+		clickToElement(driver, AbstractPageUI.DYNAMIC_JUMP_POINTS, fieldName);
 	}
 
 }
